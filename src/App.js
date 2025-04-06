@@ -1,11 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Layout from "./Components/Layout";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p> Pragya Paudyal</p>
+        <Layout />
       </header>
     </div>
   );

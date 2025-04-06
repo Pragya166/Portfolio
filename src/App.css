@@ -18,12 +18,37 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.page-header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-style: normal;
+  padding: 20px;
+}
+.page-footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: red;
+}
+.contact {
+  text-align: left;
+  padding-right: 30px;
+}
+.enquiry-form {
+  text-align: left;
+}
 .App-link {
   color: #61dafb;
 }
